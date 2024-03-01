@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Clicker Game</h1>
+    <p>Score: <span id="score">0</span></p>
+    <button id="clickButton">Click Me!</button>
+  </div>
+  
+  <div id="buildings">
+    <h2>Buildings</h2>
+    <button class="building-button" id="building1Button">Buy Cursor (Cost: <span id="building1Cost">10</span>)</button>
+    <button class="building-button" id="building2Button">Buy Grandma (Cost: <span id="building2Cost">100</span>)</button>
+    <button class="building-button" id="building3Button">Buy Oven (Cost: <span id="building3Cost">1000</span>)</button>
+  </div>
+
+  <div id="upgrades">
+    <h2>Upgrades</h2>
+    <button class="upgrade-button" id="productivityUpgrade">Increase Productivity (Cost: <span id="productivityUpgradeCost">100</span>)</button>
+    <button class="upgrade-button" id="efficiencyUpgrade">Increase Efficiency (Cost: <span id="efficiencyUpgradeCost">150</span>)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
